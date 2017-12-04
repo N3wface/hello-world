@@ -1,0 +1,26 @@
+#include <iostream>
+
+int max(array)
+{
+	int max = array[0];
+	for (int i = 1; i < array.length(); i++)
+		if(array[i] > max)
+			max = array[i];
+	return max;
+}
+
+int min(array)
+{
+	int min = array[0];
+	for (int i = 1; i < array.length(); i++)
+		if(array[i] > min)
+			min = array[i];
+	return min;
+}
+
+
+int main()
+{
+	int sum;
+	cout << sum;
+}
